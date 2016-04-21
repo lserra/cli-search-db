@@ -1,5 +1,5 @@
 - CLI - database search utility
-____________________________________________________________________________________________________________________
+
 - Usage:
 The user calls it from the command line (that is, shell prompt)
 The search term is defined at the time of calling
