@@ -29,12 +29,11 @@ Part 1: Command-Line, the arguments for optparse that would be required are:
 - [6] the output file name
 - [7] the search string for the query
 
-Part 2 - MySQL
-Is necessary to define the parameters to the connection
--HOST = ''
--USER = ''
--PWD = ''
--DB = ''
+Part 2: MySQL Database, are necessary to define the parameters to the connection:
+- HOST = ''
+- USER = ''
+- PWD = ''
+- DB = ''
 
 Ex.: ./csdb.py -t <table> -c <col> -f -o <output.csv> -q <query>
 
