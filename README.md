@@ -19,16 +19,15 @@ Usage:
 - If the -f flag is issued, the output is formatted by table
 - If the -o flag is issued, the output is written to the given file
 
-Part 1 - Command-Line
-The arguments for optparse that would be required are:
-0-the command itself, naturally
-1-the flag -t
-2-the flag -c
-3-the table name
-4-the -f flag
-5-the flag -o
-6-the output file name
-7-the search string for the query
+Part 1: Command-Line, the arguments for optparse that would be required are:
+- [0] the command itself, naturally
+- [1] the flag -t
+- [2] the flag -c
+- [3] the table name
+- [4] the -f flag
+- [5] the flag -o
+- [6] the output file name
+- [7] the search string for the query
 
 Part 2 - MySQL
 Is necessary to define the parameters to the connection
