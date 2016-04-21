@@ -12,12 +12,12 @@ Pre-requisites:
 How-To:
 ================================================================================================
 Usage:
--The user calls it from the command line (that is, shell prompt)
--The search term is defined at the time of calling
--If the -t flag is issued, the following term is the table to be used; default is to search all tables
--If the -c flag is issued, the output is formatted by colunm
--If the -f flag is issued, the output is formatted by table
--If the -o flag is issued, the output is written to the given file
+- The user calls it from the command line (that is, shell prompt)
+- The search term is defined at the time of calling
+- If the -t flag is issued, the following term is the table to be used; default is to search all tables
+- If the -c flag is issued, the output is formatted by colunm
+- If the -f flag is issued, the output is formatted by table
+- If the -o flag is issued, the output is written to the given file
 
 Part 1 - Command-Line
 The arguments for optparse that would be required are:
