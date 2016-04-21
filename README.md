@@ -37,9 +37,9 @@ Part 2: MySQL Database, are necessary to define the parameters to the connection
 - DB = ''
 
 Example:
-- $ ./csdb.py -t <table> -c <col> -f -o <output.csv> -q <query>
+- $ ./csdb.py -t table_name -c col_name -f -o output_file_name -q filter
 
-So, the results can be show to screen or export to an external file (csv).
+So, the results can be show to screen or export to an external file (csv)
 
 ================================================================================================
 History:
