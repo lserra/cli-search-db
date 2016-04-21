@@ -1,5 +1,5 @@
 # csdb
-CLI - database search utility
+CLI - Database Search Utility
 
 ================================================================================================
 Pre-requisites:
