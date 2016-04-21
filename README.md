@@ -22,12 +22,13 @@ Usage:
 Part 1: Command-Line, the arguments for optparse that would be required are:
 - [0] the command itself, naturally
 - [1] the flag -t
-- [2] the flag -c
-- [3] the table name
-- [4] the -f flag
-- [5] the flag -o
-- [6] the output file name
-- [7] the search string for the query
+- [2] the table name
+- [3] the flag -c
+- [4] the column name
+- [5] the flag -f
+- [6] the flag -o
+- [7] the output file name
+- [8] the search string for the query
 
 Part 2: MySQL Database, are necessary to define the parameters to the connection:
 - HOST = ''
@@ -35,7 +36,8 @@ Part 2: MySQL Database, are necessary to define the parameters to the connection
 - PWD = ''
 - DB = ''
 
-Ex.: "./csdb.py "-t" <table> "-c" <col> "-f" "-o" <output.csv> "-q" <query>"
+Ex.: 
+$ ./csdb.py -t <table> -c <col> -f -o <output.csv> -q <query>"
 
 So, the results can be show to screen or export to an external file (csv).
 
