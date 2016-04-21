@@ -36,8 +36,8 @@ Part 2: MySQL Database, are necessary to define the parameters to the connection
 - PWD = ''
 - DB = ''
 
-Ex.: 
-$ ./csdb.py -t <table> -c <col> -f -o <output.csv> -q <query>"
+Example:
+$ ./csdb.py -t <table> -c <col> -f -o <output.csv> -q <query>
 
 So, the results can be show to screen or export to an external file (csv).
 
